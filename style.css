@@ -1,0 +1,505 @@
+/* Head tags font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* Text font family */
+
+
+/* Reset */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+    --pink : hsl(322, 100%, 66%);
+    --vd-cyan: hsl(192, 100%, 9%);
+    --vp-cyan: hsl(193, 100%, 96%);
+    --g-blue: hsl(208, 11%, 55%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    /* padding: 2rem 1rem; */
+    font-family: 'Open Sans';
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins';
+}
+
+a{
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    text-transform: capitalize;
+    position: relative;
+}
+
+img{
+    object-fit: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Header Section styles */
+header{
+    padding: 2rem 1rem;
+    margin-bottom: 10rem;
+    background: var(--vp-cyan) url(bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+}
+
+/* huddle__nav */
+
+nav{
+    margin-bottom: 10rem;
+}
+
+.huddle__nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.huddle__nav__logo{
+    margin-top: .7rem;
+}
+
+.huddle__nav__logo img{
+    width: 100px;
+}
+
+.huddle__nav__btn{
+    /* flex: 1; */
+}
+
+.btn{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+    background-color: var(--white);
+    padding: .5em 2em;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.123);
+}
+
+
+.btn:hover{
+    box-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.315);
+}
+
+
+/* huddle__hero */
+.huddle__hero{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.huddle__hero__info{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.huddle__hero__title{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.huddle__hero__text{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    margin-bottom: 3rem;
+}
+
+.primary__btn{
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding: 1.3rem 5rem;
+    margin-bottom: 3rem;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.123);
+}
+
+.primary__btn:hover{
+    box-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.315);
+}
+
+.huddle__hero__img{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.huddle__hero__img img{
+    width: 100%;
+}
+
+
+/* Main Section styles */
+main{
+    padding: 2rem 1rem;
+    margin-bottom: 8rem;
+}
+
+.huddle__body{
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0px 3px hsla(0, 0%, 0%, 0.123);
+}
+
+.huddle__body__img{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.huddle__body__img img{
+    width: 100%;
+}
+
+.huddle__body__info{
+
+}
+
+.huddle__body__title{
+    font-size: 2.2rem;
+    line-height: 1.2em;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.huddle__body__text{
+    font-size: 1.4rem;
+    color: var(--g-blue);
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    margin-bottom: 3rem;
+}
+
+/* Footer Section style */
+footer{
+    background-color: var(--vd-cyan);
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+/* huddle footer */
+
+.huddle__footer{
+    
+}
+
+.huddle__footer__info{
+    background-color: var(--white);
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    right: 10px;
+}
+
+.huddle__footer__info__title{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 2rem;
+}
+
+/* huddle footer main */
+.huddle__footer__main{
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-top: 9rem;
+}
+
+.huddle__footer__main__info{
+
+}
+
+.huddle__footer__main__info__img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.huddle__footer__main__info__img img{
+    object-fit: cover;
+    width: 150px
+}
+
+.huddle__footer__main__together{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.huddle__footer__main__img{
+    
+}
+
+.huddle__footer__main__img img {
+    width: 15px;
+}
+
+
+.huddle__footer__main__text{
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    color: var(--white);
+}
+
+.huddle__footer__main__career, 
+.huddle__footer__main__about {
+    margin-bottom: 3rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.hover a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--white);
+
+    transform: scale(0);
+    transition: transform 300ms;
+}
+
+.hover a:hover::after{
+    transform: scale(1);
+}
+
+i {
+    width: 35px;
+    height: 35px;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: .8rem;
+    margin-right: 1rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+i:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+
+.huddle__footer__main__socials{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.copy{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+
+
+/* Media query */
+@media only screen and (min-width: 768px) {
+    header{
+        padding: 2rem 2.5rem;
+        background: var(--vp-cyan) url(bg-hero-desktop.svg);
+    }
+
+    .huddle__nav__logo{
+        margin-top: .7rem;
+    }
+    
+    .huddle__nav__logo img{
+        width: 200px;
+    }
+    
+    .btn{
+        font-size: 1.7rem;
+    }
+
+    main{
+        padding: 2rem 2.5rem;
+    }
+
+    .huddle__hero{
+        margin-bottom: 2rem;
+        display: flex;
+        gap: 4rem;
+        flex-direction: row;
+    }
+
+    .huddle__hero__info{
+        text-align: left;
+        align-self: center;
+    }
+
+    .huddle__hero__text{
+        font-weight: 500;
+    }
+
+    .huddle__body{
+        max-width: none;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .huddle__body__img{
+        max-width: none;
+        flex: 3;
+    }
+
+    
+    .huddle__body__info{
+        flex: 2;
+        align-self: center;
+        text-align: left;
+        margin-left: 4rem;
+    }
+    
+    .huddle__body__title{
+        font-size: 3rem;
+    }
+    
+    .huddle__body__text{
+        font-size: 1.8rem;
+    }
+    
+    .grow,
+    .users {
+        flex-direction: row-reverse;
+    }
+
+
+    footer{
+        background-color: var(--vd-cyan);
+        padding: 2rem 4rem;
+        position: relative;
+    }
+
+    .huddle__footer__info{
+        max-width: 700px;
+        border-radius: 30px;
+    }
+    
+    .huddle__footer__info__title{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .huddle__footer__main{
+        text-align: left;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .huddle__footer__main__info{
+        flex-basis: 300px;
+        flex: 3;
+    }
+    
+    .huddle__footer__main__info__img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .huddle__footer__main__info__img img{
+        width: 170px
+    }
+    
+    .huddle__footer__main__together{
+        display: flex;
+        gap: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .huddle__footer__main__img{
+        
+    }
+    
+    .huddle__footer__main__img img {
+        width: 18px;
+    }
+    
+    
+    .huddle__footer__main__text{
+        flex-basis: 300px;
+        font-size: 1.8rem;
+    }
+    
+    .huddle__footer__main__career, 
+    .huddle__footer__main__about {
+        margin-top: 4.5rem;
+        flex: 1;
+    }
+
+    .huddle__footer__main__socials{
+        text-align: center;
+        margin-top: 4.5rem;
+        flex: 1;
+        min-width: 145px;
+    }
+
+    li {
+        margin-bottom: 1.8em;
+    }
+
+    a{
+        font-size: 1.8rem;
+    }
+    
+    i {
+        font-size: 1.8rem;
+        padding: .8rem;
+    }
+
+    .copy{
+        text-align: right;
+        font-size: 1.8rem;
+    }
+}
