@@ -27,8 +27,8 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/SAAJEVES/Frontend-Mentor-Challenge-J3)
+- Live Site URL: (https://saajeves.github.io/Frontend-Mentor-Challenge-J3/)
 
 ## My process
 
